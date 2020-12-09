@@ -118,7 +118,10 @@ class CityLinkExpressTrackingApi
 						}
 					}
 				}
-	        }
+			}
+			
+			// reverse tracking list - latest first
+			$trackres['data'] = array_reverse($trackres['data']);
 	    } 
 	    else 
 	    {
