@@ -20,8 +20,6 @@ if(isset($_GET['trackingNo']))
 
     $trackres = CityLinkExpressTrackingApi::crawl($trackingNo, true);
 
-    print_r($trackres);exit();
-
     # output/display the JSON formatted string
     echo json_encode($trackres);
 }
