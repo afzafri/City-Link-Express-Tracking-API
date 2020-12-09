@@ -1,0 +1,17 @@
+{
+    "name": "afzafri/city-link-express-tracking-api",
+    "description": "Return JSON formatted string of City-Link Express Tracking details",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Afif Zafri",
+            "email": "afzafri@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Afzafri\\": "src/"
+        }
+    }
+
+}
